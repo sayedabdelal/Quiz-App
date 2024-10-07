@@ -334,3 +334,27 @@ header h1 {
     transform: translateY(0);
   }
 }
+
+
+@media (max-width: 700px) {
+  #summary-stats {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  #summary-stats {
+    width:100%;
+    gap: 1rem;
+  }
+  #summary h2 { 
+    font-size: 1.8rem;
+  }
+  .answer button { 
+    padding: 0.75rem 1.5rem;
+  }
+  #quiz {
+      padding: 4rem 2rem;
+  }
+
+}
